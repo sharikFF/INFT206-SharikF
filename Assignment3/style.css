@@ -3,5 +3,8 @@ html {
 }
 
 body {
+    background-color: #efefef;
   font: 1.2em / 1.5 system-ui;
+  width: 20x;
+  padding: 500px;
 }
