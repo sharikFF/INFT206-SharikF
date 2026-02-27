@@ -3,8 +3,10 @@ html {
 }
 
 body {
-    background-color: #efefef;
   font: 1.2em / 1.5 system-ui;
-  width: 20x;
-  padding: 500px;
+  width: 500px;
+  padding: 20x;
+  background-color: #efefef;
+  margin: 0 auto;
 }
+
