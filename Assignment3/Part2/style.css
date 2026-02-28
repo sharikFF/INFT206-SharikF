@@ -34,15 +34,7 @@ footer {
 footer p {
   text-align: center;
 }
-/* Typography */
 
-html {
-  font-family: "Merriweather", serif;
-}
-h1,h2{
-    font-family: "Roboto Slab", serif;
-
-}
 h1{
 font-size: 3rem;
 text-align: center;
@@ -59,4 +51,23 @@ p,li{
 }
 section h2 + p {
   text-indent: 2rem;
+}
+/* Link Styling */
+a:link,
+a:visited{
+  color: #aa6666;
+}
+a:focus,
+a:hover{
+  color:#773333;
+  text-decoration: none;
+}
+/* Typography */
+
+html {
+  font-family: "Merriweather", serif;
+}
+h1,h2{
+    font-family: "Roboto Slab", serif;
+
 }
