@@ -1,5 +1,6 @@
-/* General setup */
 
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto+Slab:wght@700&display=swap");
+/* General setup */
 * {
   box-sizing: border-box;
 }
@@ -36,7 +37,7 @@ footer p {
 /* Typography */
 
 html {
-  font-family: "Nunito", serif;
+  font-family: "Merriweather", serif;
 }
 h1,h2{
     font-family: "Roboto Slab", serif;
