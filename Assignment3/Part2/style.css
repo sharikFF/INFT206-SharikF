@@ -33,3 +33,12 @@ footer {
 footer p {
   text-align: center;
 }
+/* Typography */
+
+html {
+  font-family: "Nunito", serif;
+}
+h1,h2{
+    font-family: "Roboto Slab", serif;
+
+}
