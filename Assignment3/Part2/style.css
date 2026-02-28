@@ -55,5 +55,8 @@ letter-spacing: 1px;
 }
 p,li{
   line-height: 1.6;
-  line-height: 0.5px;
+  letter-spacing: 0.5px;
+}
+section h2 + p {
+  text-indent: 2rem;
 }
