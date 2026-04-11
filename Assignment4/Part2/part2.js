@@ -18,4 +18,22 @@ for(const image of images)
     newImage.src=`${baseURL}${image.filename}`;
     newImage.alt=image.alt;
     newImage.tabIndex=0;
+    thumbBar.appendChild(newImage);
+    newImage.addEventListener("click", updateDisplayedImage);
+    newImage.addEventListener("keydown", (e)=>{
+        if(e.code === "enter")
+        {
+            updateDisplayedImage(e);
+        }
+    }
+
+    )
+
+}
+
+function updateDisplayedImage(e)
+{
+displayedImage.src=e.target.src;
+displayedImage.alt=e.target.alt;
+
 }
