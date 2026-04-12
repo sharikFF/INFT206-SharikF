@@ -1,3 +1,9 @@
+<!-- 
+Name: Sharik Farrukh
+File: Index.html
+Date: April 09, 2026
+Description: Javascript practice assignment 4
+-->
 <!doctype html>
 <html lang="en">
   <head>
@@ -23,10 +29,12 @@
       src="https://mdn.github.io/shared-assets/images/examples/learn/woodland-strip.jpg"
       alt="" />
 
-    --
+   
    <form>
        <div class="form-section">
     <h2>Facilities</h2>
+    <fieldset>
+  <legend>Was the porridge</legend>
   <input type="radio" id="porridge-1" name="porridge" value="hot" checked>
     <label for="porridge-1">Too hot?</label>
 
@@ -49,52 +57,86 @@
   <label for="beds-3">Just right?</label>
 </fieldset>
 
-    Describe the chairs (select all you agree with)
-    Comfy
-    Luxurious
-    Hi tec
-    Pretty
-    Majestic
+   <fieldset>
+  <legend>Describe the chairs (select all you agree with)</legend>
+  <input type="checkbox" id="comfy" name="comfy">
+  <label for="comfy">Comfy</label>
+
+  <input type="checkbox" id="luxurious" name="luxurious">
+  <label for="luxurious">Luxurious</label>
+
+  <input type="checkbox" id="hi-tech" name="hi-tech">
+  <label for="hi-tech">Hi tec</label>
+
+  <input type="checkbox" id="pretty" name="pretty">
+  <label for="pretty">Pretty</label>
+
+  <input type="checkbox" id="majestic" name="majestic">
+  <label for="majestic">Majestic</label>
+</fieldset>
     </div>
-    --
+    
    <div class="form-section">
     <h2>About your hosts</h2>
 
-    Who's your favorite bear?
-    Papa bear
-    Mama bear
-    Junior
-    Dozer
+      <div class="separator">
 
-    Which greeting did you prefer?
-    Wave
-    Friendly greeting
-    Growl
-    Claw marks in the door
+   <label for="favorite">Who's your favorite bear?</label>
+    <select name="favorite" id="favorite">
+      <option value="papa">Papa bear</option>
+      <option value="mama">Mama bear</option>
+      <option value="junior">Junior</option>
+      <option value="dozer">Dozer</option>
+    </select>
+      </div>
+
+
+     <div class="separator">
+    <label for="greeting">Which greeting did you prefer?</label>
+    <select name="greeting" id="greeting">
+      <option value="wave">Wave</option>
+      <option value="friendly">Friendly greeting</option>
+      <option value="growl">Growl</option>
+      <option value="claw">Claw marks in the door</option>
+    </select>
+  </div>
     </div>
 
-    --
-   <div class="form-section">
-    <h2>Any other feedback?</h2>
+  
+  <div class="form-section">
+  <h2>Any other feedback?</h2>
 
-    Give us your comments
-    </div>
-    --
+  <label for="comments">Give us your comments</label>
+  <br />
+  <textarea id="comments" name="comments"></textarea>
+</div>
+   
     <div class="form-section">
     <h2>Your details</h2>
 
-    Name
-    Email
-    Phone
-    </div>
+    <div class="separator">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" />
+  </div>
 
-    --
+  <div class="separator">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" />
+  </div>
+
+  <div class="separator">
+    <label for="phone">Phone</label>
+    <input type="tel" id="phone" name="phone" />
+  </div>
+</div>
+
+    
     <div class="form-section">
-    Submit
+      <button>Submit</button>
     </div>
 
     </form>
 
-    --
+
   </body>
 </html>
